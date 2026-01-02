@@ -73,6 +73,7 @@ series.
 - External displays via Mini DisplayPort / Thunderbolt
   - Apple Thunderbolt Display (A1407)
   - DisplayPort-over-Thunderbolt works natively
+
 Thunderbolt displays function as DisplayPort devices on this iMac and require
 no additional drivers. Advanced Thunderbolt features (daisy-chaining,
 networking, hot-plug reliability) are outside the scope of this guide.
@@ -188,6 +189,7 @@ serie soportada.
 - Pantallas externas vía Mini DisplayPort / Thunderbolt
   - Apple Thunderbolt Display (A1407)
   - DisplayPort sobre Thunderbolt funciona de forma nativa
+
 Las pantallas Thunderbolt funcionan como dispositivos DisplayPort en este iMac
 y no requieren drivers adicionales. Funciones avanzadas de Thunderbolt
 (encadenamiento, red, hot-plug) quedan fuera del alcance de esta guía.
