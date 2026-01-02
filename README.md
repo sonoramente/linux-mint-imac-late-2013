@@ -38,6 +38,26 @@ These GPUs are **NOT supported by modern NVIDIA drivers**.
 The **470.xx legacy branch is mandatory**.
 Any guide recommending newer drivers is incorrect for this hardware.
 
+
+NVIDIA 470 + Kepler depends on the kernel
+
+---
+
+## 🔒 Kernel Requirement (Mandatory)
+
+This hardware **requires the Linux 5.15.x LTS kernel series**.
+
+Using newer kernels (6.x or mainline) can break the NVIDIA 470 legacy driver
+and result in black screens or boot failures.
+
+Before proceeding, **verify your kernel** and ensure it matches the supported
+series.
+
+➡️ **See:** [Kernel Selection and Pinning](kernel/kernel-selection-and-pinning.md)
+
+---
+
+
 ---
 
 ## ✔ What Works
@@ -128,6 +148,24 @@ Estas GPUs **NO son compatibles con drivers NVIDIA modernos**.
 El uso del driver **470.xx es obligatorio**.
 Cualquier guía que recomiende drivers más nuevos es incorrecta para
 este hardware.
+
+
+NVIDIA 470 + Kepler depende del kernel 
+
+## 🔒 Requisito de Kernel (Obligatorio)
+
+Este hardware **requiere la serie de kernel Linux 5.15.x (LTS)**.
+
+El uso de kernels más nuevos (6.x o mainline) puede romper el driver legacy
+NVIDIA 470 y provocar pantallas negras o fallos de arranque.
+
+Antes de continuar, **verifica tu kernel** y asegúrate de que pertenece a la
+serie soportada.
+
+➡️ **Ver:** [Selección y Fijación del Kernel](kernel/kernel-selection-and-pinning.md)
+
+---
+
 
 ---
 
